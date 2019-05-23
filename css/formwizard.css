@@ -192,3 +192,29 @@
   }
  
   
+
+
+  /* HIDE RADIO */
+.img_radio { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+.img_radio + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.img_radio:checked + img {
+  /* border: 2px solid #f00;
+   */
+   border: 2px solid #f00;
+}
+
+.col-md-2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
